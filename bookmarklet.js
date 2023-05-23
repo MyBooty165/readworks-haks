@@ -18,8 +18,7 @@ javascript:(function() {
     document.body.appendChild(div);
 
     var audio = new Audio('ambatukam-bass.mp3');
+    audio.loop = true;
     audio.volume = 1.0;
-    setInterval(function(){
-        audio.play();
-    }, 1000);
+    audio.play();
 })();
