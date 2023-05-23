@@ -17,8 +17,7 @@ javascript:(function() {
     div.innerText = "Importing Ambasing Virus...";
     document.body.appendChild(div);
 
-    var audio = new Audio('strokin.mp3');
-    audio.loop = true;
-    audio.volume = 1.0;
-    audio.play();
+    setTimeout(function() {
+        div.innerText = "Import Successful!";
+    }, 5000);
 })();
