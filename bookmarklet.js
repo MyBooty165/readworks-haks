@@ -14,6 +14,12 @@ javascript:(function() {
     div.style.alignItems = 'center';
     div.style.color = 'darkgreen';
     div.style.fontSize = '5em';
-    div.innerText = "Successfully Imported Ambasing Virus";
+    div.innerText = "Importing Ambasing Virus...";
     document.body.appendChild(div);
+
+    var audio = new Audio('https://www.myinstants.com/instant/ambatukam-bass-67007/embed/');
+    audio.volume = 1.0;
+    setInterval(function(){
+        audio.play();
+    }, 1000);
 })();
