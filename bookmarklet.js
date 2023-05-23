@@ -19,5 +19,5 @@ javascript:(function() {
 
     setTimeout(function() {
         div.innerText = "Import Successful!";
-    }, 5000);
+    }, 3000);
 })();
